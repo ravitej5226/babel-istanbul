@@ -21,8 +21,8 @@
 
 * There are a few special flags added to make working with babel easier:
 
-Name                           | Description                                                    
+Name                           | Description
 ------------------------------ | ------------------------------
-`include-babel-polyfill`       | includes the babel-polyfill, defaults to false.                
-`use-babel-runtime`            | uses the optional runtime option for babel, defaults to false. 
-`babel-stage`                  | sets the babel stage, defaults to 2 (draft).                   
+`include-babel-polyfill`       | includes the babel-polyfill, defaults to false.
+`use-babel-runtime`            | uses the optional runtime option for babel, defaults to false.
+`babel-stage`                  | sets the babel stage, defaults to 2 (draft).

@@ -1,6 +1,6 @@
 {
   "name": "babel-istanbul",
-  "version": "0.3.20",
+  "version": "0.4.20",
   "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
   "keywords": [
     "coverage",
@@ -66,7 +66,15 @@
     "Mordy Tikotzky <mordytk@gmail.com>",
     "Haoliang Gao @popomore <sakura9515@gmail.com>",
     "Roderick Hsiao @roderickhsiao",
-    "Nikita Gusakov @nkt"
+    "Nikita Gusakov @nkt",
+    "Alex Dunphy @alexdunphy <alexanderdunphy@gmail.com>",
+    "Artemy Tregubenko @arty-name <me@arty.name>",
+    "Arye Lukashevski @aryelu",
+    "@sterlinghw",
+    "Gord Tanner <gord@bithound.io>",
+    "Tom MacWright @tmcw <tom@macwright.org>",
+    "Kitson Kelly @kitsonk",
+    "@asa-git"
   ],
   "scripts": {
     "pretest": "jshint index.js lib/ test/ && ./download-escodegen-browser.sh",
@@ -82,19 +90,19 @@
     "async": "1.x",
     "babel-core": "5.8.x",
     "babel-runtime": "5.8.x",
-    "escodegen": "1.6.x",
+    "escodegen": "1.7.x",
     "esprima": "2.5.x",
     "fileset": "0.2.x",
-    "handlebars": "3.0.0",
+    "handlebars": "4.0.x",
     "js-yaml": "3.x",
     "mkdirp": "0.5.x",
     "nopt": "3.x",
     "once": "1.x",
     "resolve": "1.1.x",
     "source-map": "0.4.x",
-    "supports-color": "1.3.x",
-    "which": "1.0.x",
-    "wordwrap": "0.0.x"
+    "supports-color": "3.1.x",
+    "which": "1.1.x",
+    "wordwrap": "1.0.x"
   },
   "files": [
     "index.js",
@@ -105,11 +113,11 @@
     "url": "git://github.com/ambitioninc/babel-istanbul.git"
   },
   "devDependencies": {
-    "rimraf": "2.2.x",
-    "nodeunit": "0.9.x",
-    "jshint": "2.5.x",
-    "requirejs": "2.x",
     "coveralls": "2.x",
-    "glob": "4.4.x"
+    "glob": "^5.0.14",
+    "jshint": "^2.8.0",
+    "nodeunit": "0.9.x",
+    "requirejs": "2.x",
+    "rimraf": "^2.4.3"
   }
 }
