@@ -24,4 +24,3 @@
 Name                           | Description
 ------------------------------ | ------------------------------
 `include-babel-polyfill`       | includes the babel-polyfill, defaults to false.
-`use-babel-runtime`            | uses the optional runtime option for babel, defaults to false.
