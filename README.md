@@ -19,8 +19,4 @@
 
 ### Special flags
 
-* There are a few special flags added to make working with babel easier:
-
-Name                           | Description
------------------------------- | ------------------------------
-`include-babel-polyfill`       | includes the babel-polyfill, defaults to false.
+* There are no longer any special flags for babel. Use a .babelrc file for babel configuration.
