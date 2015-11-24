@@ -96,6 +96,7 @@
     "js-yaml": "3.x",
     "mkdirp": "0.5.x",
     "nopt": "3.x",
+    "object-assign": "^4.0.1",
     "once": "1.x",
     "resolve": "1.1.x",
     "source-map": "0.4.x",
