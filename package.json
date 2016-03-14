@@ -74,7 +74,12 @@
     "Gord Tanner <gord@bithound.io>",
     "Tom MacWright @tmcw <tom@macwright.org>",
     "Kitson Kelly @kitsonk",
-    "@asa-git"
+    "@asa-git",
+    "@RoCat",
+    "Ian Page Hands @iphands <iphands@gmail.com>",
+    "Eddie Gurnee @pegurnee",
+    "Kevin Decker @kpdecker <kpdecker@gmail.com>",
+    "isaacs @isaacs <i@izs.me>"
   ],
   "scripts": {
     "pretest": "jshint index.js lib/ test/ && ./download-escodegen-browser.sh",
@@ -88,8 +93,8 @@
   "dependencies": {
     "abbrev": "1.0.x",
     "async": "1.x",
-    "escodegen": "1.7.x",
-    "esprima": "2.5.x",
+    "escodegen": "1.8.x",
+    "esprima": "2.7.x",
     "fileset": "0.2.x",
     "handlebars": "4.0.x",
     "js-yaml": "3.x",
