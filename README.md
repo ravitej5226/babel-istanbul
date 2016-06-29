@@ -2,13 +2,11 @@
 
 * [Features](#features)
 * [Getting started](#getting-started)
-* [Special flags](#special-flags)
 
 ### Features
 
 * This package handles coverage for babel generated code by reconciling babel's output and its source map.
 * babel-istanbul is drop-in replacement for [istanbul](https://github.com/gotwarlost/istanbul), as it is a fork of istanbul with babel compilation inserted into the instrumentation layer.
-* There are also a few [special flags](#special-flags) for helping with babel compilation.
 
 ### Getting started
 
