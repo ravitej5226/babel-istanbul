@@ -13,8 +13,3 @@
     $ npm install babel-istanbul
 
 * babel-istanbul is run exactly like istanbul. For specifics on running istanbul, see [istanbul's README](https://github.com/gotwarlost/istanbul/blob/master/README.md).
-
-
-### Special flags
-
-* There are no longer special flags for babel. Use a .babelrc file for babel configuration.
