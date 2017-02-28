@@ -111,7 +111,7 @@
     "nopt": "3.x",
     "object-assign": "^4.0.1",
     "once": "1.x",
-    "resolve": "1.1.x",
+    "resolve": "^1.1.0",
     "source-map": "0.4.x",
     "supports-color": "3.1.x",
     "which": "1.2.x",
