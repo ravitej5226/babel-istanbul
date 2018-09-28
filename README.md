@@ -1,3 +1,6 @@
+## DEPRECATED
+This package was created a long time ago before istanbul had direct transpiler support. I suggest looking at https://istanbul.js.org/ for an updated and maintained solution for code coverage.
+
 ## babel-istanbul - [babel](https://github.com/babel/babel) + [istanbul](https://github.com/gotwarlost/istanbul)
 
 * [Features](#features)
