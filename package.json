@@ -1,6 +1,6 @@
 {
-  "name": "babel-istanbul",
-  "version": "0.12.2",
+  "name": "babel7-istanbul",
+  "version": "0.9.1",
   "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
   "keywords": [
     "coverage",
@@ -97,7 +97,7 @@
     "docs": "npm install yuidocjs && node node_modules/yuidocjs/lib/cli.js ."
   },
   "bin": {
-    "babel-istanbul": "./lib/cli.js"
+    "babel7-istanbul": "./lib/cli.js"
   },
   "dependencies": {
     "abbrev": "1.0.x",
@@ -118,7 +118,7 @@
     "wordwrap": "1.0.x"
   },
   "peerDependencies": {
-    "babel-core": "6.x.x"
+    "@babel/core": "7.x.x"
   },
   "files": [
     "index.js",
@@ -126,10 +126,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmcriffey/babel-istanbul.git"
+    "url": "git://github.com/ravitej5226/babel-istanbul.git"
   },
   "devDependencies": {
-    "babel-core": "6.x.x",
+    "@babel/core": "7.x.x",
     "coveralls": "2.x",
     "jshint": "^2.8.0",
     "nodeunit": "0.9.x",
